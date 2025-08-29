@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
 # 设置数据目录
-data_dir = '/Users/yimenghe/Desktop/LNL_wlc/data/SEU-datasets-master/gearbox/gearset/30_2'  # 请替换为你的实际路径
+data_dir = './gearbox/gearset/30_2'  # 请替换为你的实际路径
 file_list = [f for f in os.listdir(data_dir) if f.endswith('.csv')]
 
 label_dict = {
